@@ -1,0 +1,48 @@
+.homeContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: black;
+  padding-top: 5%;
+}
+.homeContainer .canvas {
+  height: 40% !important;
+}
+.homeContainer .tittle {
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: monospace;
+}
+.homeContainer .body {
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeContainer .body .button-container {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeContainer .body .button-container button {
+  background: #1399b9;
+  border: 1px solid #1399b9;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.homeContainer .body .button-container button:hover {
+  cursor: pointer;
+  color: #1399b9;
+  background: white;
+  border: 1px solid white;
+}

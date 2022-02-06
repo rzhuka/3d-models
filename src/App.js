@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Home from "./components/home/index.js";
+import "./App.css";
 
 class App extends Component {
   constructor(props) {
@@ -8,7 +9,7 @@ class App extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div className="app-container">
         <Home />
       </div>
     );
