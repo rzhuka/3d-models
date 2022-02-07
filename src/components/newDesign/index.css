@@ -1,0 +1,64 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+.container .tittle {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1rem;
+  color: #1399b9;
+}
+.container .body-container {
+  width: 100%;
+  height: calc(100% - 103px);
+}
+
+.container .body-container .row-container {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+}
+.container .body-container .row-container .field {
+  width: 50%;
+}
+.container .body-container .row-container .field .label {
+  color: #1399b9;
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.container .body-container .row-container .field select {
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.container .body-container .row-container .field input {
+  height: 30px;
+  width: 135px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.container .body-container .button-container {
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.container .body-container .button-container button {
+  background: #1399b9;
+  border: 1px solid #1399b9;
+  color: white;
+  height: 30px;
+  width: 75px;
+  border-radius: 5px;
+}
+.container .body-container .button-container button:hover {
+  cursor: pointer;
+  color: #1399b9;
+  background: white;
+}
