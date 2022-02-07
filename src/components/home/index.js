@@ -36,7 +36,10 @@ const Home = ({ handleChangeView }) => {
           </button>
         </div>
         <div className="button-container">
-          <button> All designs</button>{" "}
+          <button onClick={() => handleChangeView("allDesigns")}>
+            {" "}
+            All designs
+          </button>{" "}
         </div>
       </div>
     </div>

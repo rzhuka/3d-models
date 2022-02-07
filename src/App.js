@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Home from "./components/home/index.js";
-import { Container } from "./components/models/index";
+import { AllDesigns } from "./components/allDesign/index.js";
 import { NewModel } from "./components/newDesign/index.js";
 import "./App.css";
 
@@ -27,6 +27,12 @@ class App extends Component {
       return (
         <div className="app-container">
           <NewModel />
+        </div>
+      );
+    } else if (view === "allDesigns") {
+      return (
+        <div className="app-container">
+          <AllDesigns />
         </div>
       );
     }

@@ -1,0 +1,51 @@
+.all-designs {
+  height: 100%;
+  width: 100%;
+}
+.all-designs .tittle {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1rem;
+  color: #1399b9;
+}
+.all-designs .list-container {
+  height: calc(100% - 98px);
+}
+.all-designs .list-container .header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.id {
+  width: 10%;
+  padding-left: 10px;
+}
+.geometry {
+  width: 20%;
+}
+.color {
+  width: 10%;
+}
+.row {
+  display: flex;
+}
+button {
+  background: #1399b9;
+  border: 1px solid #1399b9;
+  color: white;
+  height: 30px;
+  width: 75px;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  color: #1399b9;
+  background: white;
+}
+.edit {
+  margin-right: 10px;
+}
