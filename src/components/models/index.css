@@ -1,0 +1,21 @@
+.button-container {
+  height: 10%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-container button {
+  border: none;
+  background: inherit;
+  color: #1399b9;
+  border-bottom: 1px solid #1399b9;
+}
+.button-container button:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.canva {
+  height: 90% !important;
+}
